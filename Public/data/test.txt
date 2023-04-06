@@ -1,0 +1,1 @@
+This is the data on txt file that has been passed using events and buffer using socket.io.   I am intrigued if we can get a watcher that would WATCH for any changes and update its contents dynamically.

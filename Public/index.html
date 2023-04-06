@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>PUBLIC</title>
+</head>
+<body>
+    <header>
+        <a href="http://localhost/company.html">We Are IT</a>
+        <a href="http://localhost/chat.html">Project-Chat</a>
+        <br><br>
+        <h1>ROOT</h1>
+        <p>This is the main paget but does not have to be the main only a reference to the root of the site.   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint eos eius explicabo, deleniti quasi ducimus reprehenderit error totam magni, non architecto veniam! Mollitia rerum veritatis itaque laudantium provident quia natus vero ipsam beatae asperiores eum distinctio praesentium non magni ipsa, officiis facere iure aliquam nobis cumque amet. Doloremque, at.</p>
+        <p id="thisID"></p>
+    </header>
+    <section>
+        <!-- <form> -->
+            <label for="myText">Event</label>
+            <input type="text" id="myText">
+        <!-- </form> -->
+    </section>
+
+    <script src="./javascripts/index.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+    var socket = io();
+    </script>
+</body>
+</html>
